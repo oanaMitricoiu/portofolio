@@ -237,7 +237,7 @@ img {
 #home-b .services {
   display: flex;
   justify-content: space-between;
-  margin-top: 3%; }
+  margin-top: 1%; }
 
 #home-b .service {
   width: 28%;
@@ -251,6 +251,10 @@ img {
   font-size: 2rem;
   border-radius: 20px 0;
   box-shadow: 20px 20px rgba(211, 155, 83, 0.3); }
+
+#home-b .section-title {
+  font-size: 1.1rem;
+  font-weight: 400; }
 
 #about-a {
   background-color: #d7dee7; }
@@ -296,12 +300,13 @@ img {
 
 #contact-c h1 {
   text-align: center;
-  font-size: 4rem; }
+  font-size: 3rem; }
 
 #main-footer {
   background: #333;
   color: #fff;
-  height: 4rem; }
+  height: 3rem;
+  margin-top: 0.5rem; }
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
